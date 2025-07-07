@@ -1,14 +1,12 @@
+import Navbar from "@/components/Navbar"
+import '../globals.css'
+
 const RootLayout = ({ children }) => {
   return (
     <html>
       <body>
-        <header>
-          <h2>Navbar</h2>
-        </header>
+        <Navbar/>
         {children}
-        <footer>
-          <h3>Footer</h3>
-        </footer>
       </body>
     </html>
   )
